@@ -1,4 +1,5 @@
 import React from 'react';
+//import './data/songs.js';
 
 const SongData = (songTitle, artistAlbum, image) => {
 	return (
@@ -10,8 +11,8 @@ const SongData = (songTitle, artistAlbum, image) => {
 				<img src="./img/tom-ze.jpg" alt="you are listening to" />
 			</figure>
 			<figcaption class="artistSong">
-					<h3 class="songTitle">Jimmy renda-se</h3>
-					<p class="artistAlbum">Tom Zé - Tom Zé</p>
+					<h3 class="songTitle">{songTitle}</h3>
+					<p class="artistAlbum">{artistAlbum}</p>
 			</figcaption>            
 		</div>
 	);
