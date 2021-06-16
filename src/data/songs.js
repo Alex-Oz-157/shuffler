@@ -28,5 +28,5 @@ export default [
         songTitle: 'Easy (Acoustic Version)',
         artistAlbum: 'Tahiti 80 - Fear of an Acoustic Planet',
         image:'tahiti80.jpg',
-    },
-]
+    }
+];

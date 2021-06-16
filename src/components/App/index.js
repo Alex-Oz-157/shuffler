@@ -1,11 +1,11 @@
 import React from 'react';
 
-import '/Users/alexma/Sites/projets/shuffler/shuffler/src/styles/index.scss' ;
 import Header from '../Header';
 import SongData from '../SongData';
 import ProgressBar from '../ProgressBar';
 import PlayerOptions from '../PlayerOptions';
 import Footer from '../Footer';
+
 
 const App = () => {
   return (

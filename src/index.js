@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.scss';
+import '../src/styles/index.scss';
 import App from './components/App';
+
+import './data/songs.js';
 
 ReactDOM.render(
   <React.StrictMode>

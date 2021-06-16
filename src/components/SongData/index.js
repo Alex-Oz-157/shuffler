@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const SongData = (songTitle, artistAlbum, image) => {
 	return (
 		<div>
