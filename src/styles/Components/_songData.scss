@@ -1,0 +1,50 @@
+.appOpener {
+    margin: 1rem 0;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: $light;
+    letter-spacing: 2px;
+    color: $white;
+}
+
+
+.artistCap img {
+    height: 250px;
+    width: 250px;
+    margin: 1rem auto;
+    background-color: $primary-blue;
+    border-radius: 50%;
+    border: solid 2px $secondary-blue;
+    box-shadow: 0px 1px 9px $primary-blue;
+
+    @include iosXs {
+        height: 215px;
+        width: 215px;
+    }
+
+    @include iosSm {
+        height: 225px;
+        width: 225px;
+    }
+}
+
+.artistSong {
+    margin: auto;
+    color: $white;
+}
+
+.songTitle {
+    font-size: 1.3rem;
+    font-weight: $light;
+    letter-spacing: 2px;
+    color: $orange;
+    padding: 2rem 0 1rem 0;
+}
+
+.artistAlbum {
+    font-size: 1rem;
+    font-weight: $light;
+    padding-bottom: 2rem;
+}

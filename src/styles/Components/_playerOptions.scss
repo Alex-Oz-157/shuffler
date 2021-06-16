@@ -1,0 +1,28 @@
+.playerOption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.playerOption div {
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+    cursor: pointer;
+}
+
+.on {
+    display: none;
+}
+
+.play {
+    font-size: 3rem;
+}
+
+.pause {
+    font-size: 2rem;
+}
+
+.previous, .next {
+    font-size: 2rem;
+}

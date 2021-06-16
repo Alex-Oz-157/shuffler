@@ -1,0 +1,16 @@
+footer {
+    margin: auto;
+    padding: 1rem;
+    background-color: $black;
+}
+
+.footerDisposition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footerDisposition p {
+    font-size: 0.8rem;
+    font-weight: $light;    
+}

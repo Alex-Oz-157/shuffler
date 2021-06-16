@@ -1,0 +1,41 @@
+@use 'reset';
+
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&display=swap");
+
+@import './Utils/vars';
+@import './Utils/mixins';
+
+@import './src/styles/Components/app.scss';
+@import './src/styles/Components/header.scss';
+@import './src/styles/Components/songData.scss';
+@import './src/styles/Components/progressBar.scss';
+@import './src/styles/Components/playerOptions.scss';
+@import './src/styles/Components/footer.scss';
+
+
+body {
+  font-family: 'KoHo', sans-serif;
+  width: 411px;
+  margin: auto;
+  text-align: center;
+  background-color: none;
+  color: $white;
+
+  @include iosSm {
+     width: 375px;
+  }
+
+  @include iosXs {
+    width: 320px;
+ }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+  background-color: $black;
+}
+
+
